@@ -11,70 +11,91 @@
 
   <body>
 
-    <div class="container">
-      <div class="card text-center">
-        <img src="../profile/images/marie_profile.jpg" alt="Marie Hargitt" id="img-profile" class="img-circle">
-        <h1>Marie Hargitt</h1>
-        <h2>junior developer</h2>
-        <p>
-          After 6+ years working in digital communications, I decided to throw caution to the wind and change things up. I decided to <strong>become a developer</strong>.
-        </p>
-
-        <a href="https://www.linkedin.com/in/mariehargitt" class="btn-orange">Let's connect</a>
-
-      </div>
-
-      <div class="card text-center">
-        <ul class="list-inline">
-          <li class="text-center">
-            <a href="https://twitter.com/marieusha">
-              <i class="fa fa-twitter"></i> <br>Twitter
-            </a>
-          </li>
-          <li class="text-center">
-            <a href="https://github.com/marieusha">
-              <i class="fa fa-github"></i> <br>GitHub
-            </a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="card text-center">
-        <h2>3 of my favorite artists</h2>
-
-        <table id="musicians">
-          <tbody>
-            <tr>
-              <td>
-                <img src="../profile/images/tankandthebangas.jpg" alt="Tank and the Bangas">
-              </td>
-              <td>
-                <h3>Tank and the Bangas</h3>
-                <p>Tank and the Bangas is an American musical group based in New Orleans, Louisiana.</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img src="../profile/images/joeypecoraro.jpg" alt="Joey Pecoraro">
-              </td>
-              <td>
-                <h3>Joey Pecoraro</h3>
-                <p>A guy from Michigan who makes music for your emotions.</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img src="../profile/images/sigrid.jpg" alt="Sigrid">
-              </td>
-              <td>
-                <h3>Sigrid</h3>
-                <p>Sigrid is a Norwegian singer and songwriter. In 2017, she achieved international success with her EP "Don't Kill My Vibe".</p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+    <div id="sidebar">
+      <ul>
+        <li>
+          <a href="#summary">
+            <i class="fa fa-info-circle"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#favorite-musicians">
+            <i class="fa fa-file-video-o"></i>
+          </a>
+        </li>
+         <li>
+          <a href="#footer">
+            <i class="fa fa-file-video-o"></i>
+          </a>
+        </li>
+      </ul>
     </div>
 
+    <div id="content">
+      <div class="container">
+        <div id="summary" class="card text-center">
+          <img src="../profile/images/marie_profile.jpg" alt="Marie Hargitt" id="img-profile" class="img-circle">
+          <h1>Marie Hargitt</h1>
+          <h2>junior developer</h2>
+          <p>
+            After 6+ years working in digital communications, I decided to throw caution to the wind and change things up. I decided to <strong>become a developer</strong>.
+          </p>
+
+          <a href="https://www.linkedin.com/in/mariehargitt" class="btn-orange">Let's connect</a>
+
+        </div>
+
+        <div class="card text-center">
+          <ul class="list-inline">
+            <li class="text-center">
+              <a href="https://twitter.com/marieusha">
+                <i class="fa fa-twitter"></i> <br>Twitter
+              </a>
+            </li>
+            <li class="text-center">
+              <a href="https://github.com/marieusha">
+                <i class="fa fa-github"></i> <br>GitHub
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="card text-center" id="favorite-musicians">
+          <h2>3 of my favorite artists</h2>
+
+          <table id="musicians">
+            <tbody>
+              <tr>
+                <td>
+                  <img src="../profile/images/tankandthebangas.jpg" alt="Tank and the Bangas">
+                </td>
+                <td>
+                  <h3>Tank and the Bangas</h3>
+                  <p>Tank and the Bangas is an American musical group based in New Orleans, Louisiana.</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="../profile/images/joeypecoraro.jpg" alt="Joey Pecoraro">
+                </td>
+                <td>
+                  <h3>Joey Pecoraro</h3>
+                  <p>A guy from Michigan who makes music for your emotions.</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="../profile/images/sigrid.jpg" alt="Sigrid">
+                </td>
+                <td>
+                  <h3>Sigrid</h3>
+                  <p>Sigrid is a Norwegian singer and songwriter. In 2017, she achieved international success with her EP "Don't Kill My Vibe".</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
