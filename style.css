@@ -28,6 +28,10 @@ h3{
   font-weight: 300;
 }
 
+p{
+  text-align: justify;
+}
+
 a{
   color: #48466d;
   text-decoration: none;
@@ -112,7 +116,7 @@ table{
 /* Fixed sidebar layout */
 
 #page-content {
-  margin-left: 300px;
+  margin-left: 130px;
 }
 
 #sidebar {
